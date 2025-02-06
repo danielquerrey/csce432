@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Querrey - Accessible Bio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Daniel Querrey</h1>
+        <img src="profile.jpg" alt="A clear, recognizable picture of Daniel Querrey">
+    </header>
+    
+    <main>
+        <section>
+            <h2>A Bit About Me</h2>
+            <p>I am an undergraduate student at <span class="highlight">Texas A&M University</span>.</p>
+            <p>Currently, I am pursuing a degree in <span class="highlight">Computer Science</span> under the Department of Engineering.</p>
+            <p>I spend most of my time focusing on my academics with my spare time spent on passion projects, competing for the <span class="highlight">Texas A&M Wake Boarding team</span>, and various school organizations.</p>
+        </section>
+        
+        <section>
+            <h2>My Interest in Accessibility</h2>
+            <p>Ensuring digital accessibility is crucial for inclusivity. As a computer science student, I strive to implement best practices in my projects to support users with diverse needs.</p>
+        </section>
+        
+        <section>
+            <h2>Contact Me</h2>
+            <form action="mailto:your-email@tamu.edu" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </section>
+        
+        <section>
+            <h2>Follow Me</h2>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/daniel-querrey/">LinkedIn</a></li>
+                <li><a href="https://github.com/danielquerrey">GitHub</a></li>
+            </ul>
+        </section>
+        <img src="image.png" alt="" aria-hidden="true">  
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Daniel Querrey | Texas A&M University</p>
+    </footer>
+</body>
+</html>
